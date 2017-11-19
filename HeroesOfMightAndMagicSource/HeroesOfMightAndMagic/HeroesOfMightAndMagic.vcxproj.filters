@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="System">
+      <UniqueIdentifier>{4a5a0344-0407-423f-a347-3292374c0d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Game">
+      <UniqueIdentifier>{0ba0eeac-62be-4c87-9982-f499e1bdc785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Game\GameObject">
+      <UniqueIdentifier>{91d4213f-16da-4e0f-945e-b31b83100084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Game\GameObject\Components">
+      <UniqueIdentifier>{e88b2b27-a116-4d1e-a158-7b515cdb8f73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>System\Game\GameObject\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitComponent.cpp">
+      <Filter>System\Game\GameObject\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderableComponent.cpp">
+      <Filter>System\Game\GameObject\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>System\Game\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>System\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="SdlEngine.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>System\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>System\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>System\Game\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFactory.cpp">
+      <Filter>System\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>System\Game\GameObject\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitComponent.h">
+      <Filter>System\Game\GameObject\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableComponent.h">
+      <Filter>System\Game\GameObject\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>System\Game\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>System\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>System\Game\GameObject\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="SdlEngine.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>System\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>System\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>System\Game\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFactory.h">
+      <Filter>System\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
